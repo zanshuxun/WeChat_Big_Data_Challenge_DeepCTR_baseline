@@ -1,6 +1,11 @@
 # WeChat_Big_Data_Challenge_DeepCTR_baseline
 
-## 基于[DeepCTR](https://github.com/shenweichen/DeepCTR)实现的多任务学习模型[MMOE](https://dl.acm.org/doi/10.1145/3219819.3220007)
+比赛官网：[2021中国高校计算机大赛 微信大数据挑战赛](https://algo.weixin.qq.com/) 
+
+## 方案说明
+
+本方案为基于[DeepCTR](https://github.com/shenweichen/DeepCTR)实现的多任务学习模型[MMOE](https://dl.acm.org/doi/10.1145/3219819.3220007)
+
 - 特征：本方案关注于模型，仅使用以下6个较为基础的原始特征：['userid', 'feedid', 'authorid', 'bgm_song_id', 'bgm_singer_id', 'videoplayseconds']
 
 
