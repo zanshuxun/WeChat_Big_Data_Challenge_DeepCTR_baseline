@@ -61,8 +61,8 @@
 
 添加**特征**时，仅添加feature_columns即可，无需改动模型；
 
-在**模型**方面，DeepCTR包含20多个CTR模型（如DeepFM、xDeepFM、DCN、AutoInt、DIN、FiBiNET等），可直接通过模型名调用。如需**自定义模型**，DeepCTR中也有很多高复用性的模型（例如DNN、FM、BiInteractionPooling、CIN、CrossNet等）。
+在**模型**方面，DeepCTR包含20多个CTR模型（如DeepFM、xDeepFM、DCN、AutoInt、DIN、FiBiNET等），可直接通过模型名调用。如需**自定义模型**，DeepCTR中也有很多高复用性的模型（例如DNN、FM、BiInteractionPooling、CIN、CrossNet等）。更多使用方法请参考[DeepCTR文档](http://deepctr-doc.readthedocs.io/)。
 
-楼主之前做比赛，从很多前辈的分享或开源中学到了很多。现在希望自己也能贡献一些。希望本文可以帮助大家降低深度学习CTR模型的门槛，普及这些算法技术。
+楼主之前做比赛，从很多前辈的分享或开源中学到了很多，现在希望自己也能贡献一些。希望本文可以帮助大家降低深度学习CTR模型的门槛，普及这些算法技术。
 
 预祝大家在本次大赛中取得好成绩！
