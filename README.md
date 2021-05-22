@@ -55,13 +55,19 @@
 4个目标行为2000条样本平均预测耗时（毫秒）：1.670
 ```
 
-## 其他
+## 关于DeepCTR
 
-[DeepCTR](https://github.com/shenweichen/DeepCTR)是一个易用、可扩展的深度学习点击率预测算法包。
+[DeepCTR](https://github.com/shenweichen/DeepCTR)是一个易用、可扩展的深度学习点击率预测算法包，基于tensorflow深度学习框架。
 
 添加**特征**时，仅添加feature_columns即可，无需改动模型；
 
 在**模型**方面，DeepCTR包含20多个CTR模型（如DeepFM、xDeepFM、DCN、AutoInt、DIN、FiBiNET等），可直接通过模型名调用。如需**自定义模型**，DeepCTR中也有很多高复用性的模型（例如DNN、FM、BiInteractionPooling、CIN、CrossNet等）。更多使用方法请参考[DeepCTR文档](http://deepctr-doc.readthedocs.io/)。
+
+DeepCTR也有pytorch版本：DeepCTR-Torch: https://github.com/shenweichen/DeepCTR-Torch
+
+（想用torch版的小伙伴在下方评论区扣1，人数多的话，后面实现一波torch版的MMOE）。
+
+## 其他
 
 楼主之前做比赛，从很多前辈的分享或开源中学到了很多，现在希望自己也能贡献一些。希望本文可以帮助大家降低深度学习CTR模型的门槛，普及这些算法技术。
 
