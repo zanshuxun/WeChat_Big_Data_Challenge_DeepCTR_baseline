@@ -32,11 +32,10 @@
 ## 运行说明
 1. 新建data目录，下载比赛数据集，放在data目录下并解压，得到wechat_algo_data1目录
 
-2. ```
+2. ```bash
    python run_mmoe.py
    ```
 
-   根据离线测试和线上提交修改`run_mmoe.py`中的`ONLINE_FLAG`变量
 
 ## 运行时间
 
@@ -55,8 +54,8 @@
 
 [DeepCTR](https://github.com/shenweichen/DeepCTR)是一个易用、可扩展的深度学习点击率预测算法包。
 
-添加特征时，仅添加feature_columns即可，无需改动模型；
+添加**特征**时，仅添加feature_columns即可，无需改动模型；
 
-在模型方面，DeepCTR包含20余个现有的CTR模型（如DeepFM、xDeepFM、DCN、AutoInt、DIN、FiBiNET等），可直接通过模型名调用。如需自定义模型，DeepCTR中也有很多高复用性的模型（例如DNN、FM、BiInteractionPooling、CIN、CrossNet等）。
+在**模型**方面，DeepCTR包含20多个CTR模型（如DeepFM、xDeepFM、DCN、AutoInt、DIN、FiBiNET等），可直接通过模型名调用。如需**自定义模型**，DeepCTR中也有很多高复用性的模型（例如DNN、FM、BiInteractionPooling、CIN、CrossNet等）。
 
 预祝大家在本次大赛中取得好成绩！
