@@ -77,7 +77,7 @@ scikit_learn==0.24.2
 
 添加**特征**时，仅添加feature_columns即可，无需改动模型；
 
-在**模型**方面，DeepCTR包含20多个CTR模型（如DeepFM、xDeepFM、DCN、AutoInt、DIN、FiBiNET等），可直接通过模型名调用。如需**自定义模型**，DeepCTR中也有很多高复用性的模型（例如DNN、FM、BiInteractionPooling、CIN、CrossNet等）。更多使用方法请参考[DeepCTR文档](http://deepctr-doc.readthedocs.io/)。
+在**模型**方面，DeepCTR包含20多个CTR模型（如DeepFM、xDeepFM、DCN、AutoInt、DIN、FiBiNET等），可直接通过模型名调用。如需**自定义模型**，DeepCTR中也有很多高复用性的模块（例如DNN、FM、BiInteractionPooling、CIN、CrossNet等）。更多使用方法请参考[DeepCTR文档](http://deepctr-doc.readthedocs.io/)。
 
 DeepCTR也有pytorch版本：DeepCTR-Torch: https://github.com/shenweichen/DeepCTR-Torch
 
