@@ -2,22 +2,6 @@
 
 比赛官网：[2021中国高校计算机大赛 微信大数据挑战赛](https://algo.weixin.qq.com/) 
 
-## 【更新】关于复现不出0.63的问题
-群里有很多小伙伴提出无法复现0.63，跑出来结果只有0.5多。下面是我这边具体的环境，麻烦大家再试下（应该是tf版本不同导致的）：
-```
-deepctr==0.8.5
-numpy==1.16.4
-pandas==0.24.2
-tensorflow==1.12.0
-scikit_learn==0.24.2
-```
-
-
-目前来看 **tf 1.12.0或1.13.1**是可以正常复现出0.63的。以下是一些同学的反馈：
-![ ](https://mmbiz.qpic.cn/mmbiz_png/B5C8lMMBfXtic8UBJiahA72wG65kvywVpeZXJ0aFskA5nzMN4XibiaLmear9ERAgGmX9SUdonzwGDT7RwUqvldW6yg/0?wx_fmt=png)
-![ ](https://mmbiz.qpic.cn/mmbiz_png/B5C8lMMBfXtic8UBJiahA72wG65kvywVpeTIic3fV869SbFzFfqt1FxgSIeFjUP9x408Ij5RyEQJw2xrJXsoJq6zw/0?wx_fmt=png)
-![ ](https://mmbiz.qpic.cn/mmbiz_png/B5C8lMMBfXtic8UBJiahA72wG65kvywVpeib2dGAWKM0mFSAgeZibAt6D3VRUvq0lslUokMEqkkiaLpibiczb55uamsLg/0?wx_fmt=png)
-
 ## 方案说明
 
 本方案为基于[DeepCTR](https://github.com/shenweichen/DeepCTR)实现的多任务学习模型[MMOE](https://dl.acm.org/doi/10.1145/3219819.3220007)
@@ -81,7 +65,6 @@ scikit_learn==0.24.2
 
 DeepCTR也有pytorch版本：DeepCTR-Torch: https://github.com/shenweichen/DeepCTR-Torch
 
-（想用torch版的小伙伴在下方评论区扣1，人数多的话，后面实现一波torch版的MMOE）。
 
 ## 其他
 
