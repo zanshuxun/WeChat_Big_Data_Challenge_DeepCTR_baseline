@@ -17,11 +17,14 @@
 
 
 ## 运行环境
- python 3.6
- deepctr==0.8.5
- tensorflow-gpu(tensorflow)
- pandas
- scikit-learn
+```
+python 3.6
+deepctr==0.8.5
+numpy==1.16.4
+pandas==0.24.2
+tensorflow==1.12.0
+scikit_learn==0.24.2
+```
 
 ### deepctr安装说明
 - CPU版本
